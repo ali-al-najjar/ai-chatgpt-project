@@ -1,0 +1,71 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body, html {
+  height: 100vh;
+  /* background:#f9f9f9; */
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  top: 0;
+  /* left:0;*/
+  width:100%;
+  padding:30px 100px;
+  position:absolute;
+  /* align-items:center; */
+  /* z-index:100; */
+}
+
+.logo{
+  font-size:2em;
+  color:white;
+  pointer-events: none;
+}
+
+.navigation a{
+  font-size:1em;
+  color:white;
+  text-decoration: none;
+  padding:10px;
+}
+.parallax {
+  /* The image used */
+  background-image: url('ai-brain.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url('artificial-intelligence.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.parallax_content{
+  height:250px;
+  text-align:center;
+  color:#00225d;
+  background-color:white;
+  font-size:36px;
+  padding:5%
+  }
