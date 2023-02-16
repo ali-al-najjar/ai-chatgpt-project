@@ -63,13 +63,32 @@ body, html {
 
 .parallax_content{
   height:250px;
-  text-align:center;
-  color:#00225d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color:white;
-  font-size:36px;
-  padding:5%
+  padding:5%;
   }
 
-  x{
-    background-color: black;
+  .box-chatgpt h1{
+    text-align: center;
   }
+
+  .box-chatgpt{
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(43,50,168);
+    border-radius: 30px;
+    width: 35%;
+    
+  }
+
+  .box-AI{
+    text-align: center;
+    background-color: rgb(0,145,255);
+    width: 35%;
+    padding: 1% 1% 1% 1%;
+    border-radius: 30px;
+    
+  }
+
