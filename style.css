@@ -35,15 +35,6 @@ html {
   background-size: cover;
 }
 
-.parallax2 {
-  background-image: url('artificial-intelligence.jpg');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .parallax_content {
   height: 250px;
   display: flex;
