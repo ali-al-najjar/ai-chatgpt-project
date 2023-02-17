@@ -1,45 +1,39 @@
-*{
-  padding:0;
-  margin:0;
-  box-sizing:border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
 }
-body, html {
+
+body,
+html {
   height: 100vh;
-  /* background:#f9f9f9; */
 }
 
-.header{
-  display:flex;
-  justify-content:space-between;
+.header {
+  display: flex;
   top: 0;
-  /* left:0;*/
-  width:100%;
-  padding:30px 100px;
-  position:absolute;
-  /* align-items:center; */
-  /* z-index:100; */
+  width: 100%;
+  padding: 30px 100px;
+  position: absolute;
 }
 
-.logo{
-  font-size:2em;
-  color:white;
+.logo {
+  font-size: 2em;
+  color: white;
   pointer-events: none;
 }
 
-.navigation a{
-  font-size:1em;
-  color:white;
+.navigation a {
+  font-size: 1em;
+  color: white;
   text-decoration: none;
-  padding:10px;
+  padding: 10px;
 }
+
 .parallax {
-  /* The image used */
-  background-image: url('ai-brain.jpg');
-
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
+  background-image: url('./images/image-of-hand.jpg');
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,49 +41,56 @@ body, html {
 }
 
 .parallax2 {
-  /* The image used */
   background-image: url('artificial-intelligence.jpg');
-
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
-.parallax_content{
-  height:250px;
+.parallax_content {
+  height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color:white;
-  padding:5%;
-  }
+  background-color: white;
+  padding: 5%;
+}
 
-  
-  .box-chatgpt p{
-    text-align: center;
-    margin: 2% 2% 2% 2%;
-  }
 
-  .box-chatgpt{
-    text-align: center;
-    padding: 1% 1% 1% 1%;
-    background-color: rgb(43,50,168);
-    border-radius: 30px;
-    width: 35%;
-  }
+.box-chatgpt p {
+  text-align: center;
+  margin: 2% 2% 2% 2%;
+}
 
-  .box-AI{
-    text-align: center;
-    background-color: rgb(0,145,255);
-    width: 35%;
-    padding: 1% 1% 1% 1%;
-    border-radius: 30px;
-  }
- 
+.box-chatgpt {
+  text-align: center;
+  padding: 1% 1% 1% 1%;
+  background-color: rgb(43, 50, 168);
+  border-radius: 30px;
+  width: 35%;
+}
 
+.box-AI {
+  text-align: center;
+  background-color: rgb(0, 145, 255);
+  width: 35%;
+  padding: 1% 1% 1% 1%;
+  border-radius: 30px;
+}
+
+.footerLogo {
+  width: 100px;
+  height: 50px;
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #194198;
+}
+
+.flex-footer>* {
+  margin: 10px 50px;
+}
