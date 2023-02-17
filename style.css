@@ -2,21 +2,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Source Code Pro', monospace;
 }
-
 body,
 html {
   height: 100vh;
+  /* background:#f9f9f9; */
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
   top: 0;
+  /* left:0;*/
   width: 100%;
   padding: 30px 100px;
   position: absolute;
-  justify-content: flex-end;
+  /* align-items:center; */
+  /* z-index:100; */
+}
+
+.logo {
+  font-size: 2em;
+  color: white;
+  pointer-events: none;
 }
 
 .navigation a {
@@ -25,10 +33,28 @@ html {
   text-decoration: none;
   padding: 10px;
 }
-
 .parallax {
-  background-image: url('./images/homepage-banner.png');
+  /* The image used */
+  background-image: url("images/homepage-banner.png");
+
+  /* Full height */
   height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("artificial-intelligence.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,34 +62,65 @@ html {
 }
 
 .parallax_content {
-  height: 250px;
+  height: 550px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: white;
+  align-items: center;
   padding: 5%;
 }
-
-
-.box-chatgpt p {
+.box {
+  width: 500px;
+  height: 350px;
+  color: white;
   text-align: center;
-  margin: 2% 2% 2% 2%;
+  padding: 1% 1% 1% 1%;
+  border-radius: 0;
 }
-
+.box h1 {
+  font-size: 48px;
+}
+.box p {
+  font-size: 30px;
+  /* line-height: 45px; */
+  font-weight: bold;
+}
 .box-chatgpt {
-  text-align: center;
-  padding: 1% 1% 1% 1%;
-  background-color: rgb(43, 50, 168);
-  border-radius: 30px;
-  width: 35%;
+  background-color: #18a0fb;
 }
-
 .box-AI {
-  text-align: center;
-  background-color: rgb(0, 145, 255);
-  width: 35%;
-  padding: 1% 1% 1% 1%;
-  border-radius: 30px;
+  background-color: #023968;
+}
+.box-chatgpt:hover {
+  border: 5px solid #18a0fb;
+  box-shadow: 25px 25px 5px #18a0fb;
+  background-color: white;
+  color: #18a0fb;
+  /* transform: translate(-25px, -25px, 25px); */
+  transform: translate(0);
+  -webkit-clip-path: polygon(
+    0 var(--d),
+    var(--d) 0,
+    100% 0,
+    100% calc(100% - var(--d)),
+    calc(100% - var(--d)) 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 var(--d),
+    var(--d) 0,
+    100% 0,
+    100% calc(100% - var(--d)),
+    calc(100% - var(--d)) 100%,
+    0 100%
+  );
+}
+.box-AI:hover {
+  border: 5px solid #023968;
+  box-shadow: 25px 25px 5px #023968;
+  background-color: white;
+  color: #023968;
+  transform: translate(-25px, -25px, 25px);
 }
 
 .footerLogo {
@@ -77,6 +134,6 @@ html {
   color: #194198;
 }
 
-.flex-footer>* {
+.flex-footer > * {
   margin: 10px 50px;
 }

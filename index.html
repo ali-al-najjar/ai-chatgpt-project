@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>AI-ChatGPT</title>
+  </head>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-  <title>AI-ChatGPT</title>
-</head>
+  <body>
+    <div class="header">
+      <h2 class="logo">Logo</h2>
+      <nav class="navigation">
+        <a href="#" class="active">Home</a>
+        <a href="#">ChatGPT</a>
+        <a href="#">Artificial Intelligence</a>
+      </nav>
+    </div>
+    <div class="parallax"></div>
 
-<body>
-  <div class="header">
-    <nav class="navigation">
-      <a href="#">Artificial Intelligence</a>
-      <a href="#">ChatGPT</a>
-    </nav>
-  </div>
-  <div class="parallax"></div>
-
-  <div class="parallax_content">
-    <button class="box-chatgpt" onclick="">
-      <h1>ChatGPT</h1>
-      <p>ChatGPT (Chat Generative Pre-trained Transformer is a chatbot developed by OpenAI and launched in November
-        2022.</p>
-      <p>Learn more</p>
-    </button>
-    <button class="box-AI" onclick="">
-      <h1>AI</h1>
-      <p>Artificial intelligence (AI) is intelligence—perceiving, synthesizing, and inferring information—demonstrated
-        by machines, as opposed to intelligence displayed by non human animals and humans.</p>
-      <p>Learn more</p>
-    </button>
-  </div>
-  <div class="parallax"></div>
-  <footer class="flex-footer">
-    <img src="./images/logos_openai.svg" class="footerLogo">
-    <div>
-      <p>Contact us</p>
-      <p>info@apichatogpt.edu</p>
+    <div class="parallax_content">
+      <a class="box-chatgpt box">
+        <h1>ChatGPT</h1>
+        <!-- <img src="openai.png" /> -->
+        <p>
+          ChatGPT (Chat Generative Pre-trained Transformer is a chatbot
+          developed by OpenAI and launched in November 2022.
+        </p>
+      </a>
+      <a class="box-AI box">
+        <h1>AI</h1>
+        <!-- <img src="brain.png" /> -->
+        <p>
+          Artificial intelligence (AI) is intelligence—perceiving, synthesizing,
+          and inferring information—demonstrated by machines.
+        </p>
+      </a>
     </div>
 
-  </footer>
-
-</body>
-
+    <div class="parallax"></div>
+    <footer class="flex-footer">
+      <img src="./images/logos_openai.svg" class="footerLogo" />
+      <div>
+        <p>Contact us</p>
+        <p>info@apichatogpt.edu</p>
+      </div>
+    </footer>
+  </body>
 </html>
