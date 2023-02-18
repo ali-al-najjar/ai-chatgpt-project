@@ -10,6 +10,6 @@ We've worked on this project as a team, and through this project, we've learned 
 - Ali Najjar
 
 ### Team members
-- Shiffaa khalil
+- Shifaa khalil
 - Layla Hammoud
 - Fadi Dib 
