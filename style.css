@@ -84,9 +84,10 @@ html {
   font-size: 2em ;
   padding: 30px;
   font-weight: bold;
-}
-.chatgptTitleBox {
- 
+  border-bottom-color:orange; 
+  border-bottom-width:5px; 
+  border-bottom-style:solid;
+  position:relative;
 }
 .content-2{
   display: flex;
@@ -100,7 +101,7 @@ html {
 .text-2{
   width: 50%;
   line-height: 2rem;
-  margin-left: 4rem;
+  margin-left: 1.5rem;
 }
 .background-blue{
   background-color: #194198;
@@ -111,4 +112,5 @@ html {
 .main-2{
   margin:100px;
   color: white;
+  background-color: red;
 }
