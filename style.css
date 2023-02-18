@@ -31,13 +31,8 @@ html {
   padding: 10px;
 }
 .parallax {
-  /* The image used */
-  background-image: url("images/homepage-banner.png");
-
-  /* Full height */
+  background-image: url("images/homepage-bckg.png");
   height: 100%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,6 +105,16 @@ html {
 .flex-footer > * {
   margin: 10px 50px;
 }
+/* ChatGPT Styling */
+
+.parallax-chatgpt {
+  background-image: url("images/chatgpt-bckg.webp");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .title-2{
   font-size: 2em ;
@@ -145,7 +150,69 @@ html {
   color: white;
 }
 .main-2{
-  margin:50px;
+  padding: 10%;
   color: white;
+  background-color: #194198;
+  border-top: 64px solid rgba(25, 65, 152, 0.5);
+  box-shadow: 10px;
+  box-shadow: 0px -20px 20px #194198;
+}
 
+
+/* AI Styling */
+
+.ai-parallax {
+  background-image: url("images/ai-bckg.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ai-parallax-content {
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 5%;
+ 
+}
+
+.ai-box {
+  width: 500px;
+  height: 350px;
+  color: white;
+  text-align: center;
+  padding: 1% 1% 1% 1%;
+  margin-top:200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.left{
+  position: absolute;
+  left: -250px;
+  width: 500px;
+  height: 350px;
+  transition: 1s;
+}
+
+.ai-box:hover .left {
+  transition: 1s;
+  left: 0;
+}
+
+.machine-learning{
+  background-color: rgb(15,163,127);
+} 
+
+.machine-intelligence{
+  background-color: rgb(25,65,152);
+  align-self: flex-end;
+}
+
+.machine-consciousness{
+  background-color: rgb(242,129,87);
 }
