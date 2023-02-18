@@ -120,9 +120,7 @@ html {
   font-size: 2em ;
   padding: 30px;
   font-weight: bold;
-  border-bottom-color:orange; 
-  border-bottom-width:5px; 
-  border-bottom-style:solid;
+  border-bottom: 5px solid #F28157;
   position:relative;
   margin-right:35rem;
   margin-left:1rem;
