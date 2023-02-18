@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Source Code Pro", sans-serif;
+  scroll-behavior: smooth;
 }
+
 body,
 html {
   height: 100vh;
@@ -115,6 +117,9 @@ html {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+.chatgpt-arrow {
+  cursor: pointer;
 }
 
 .chatgpt-title {
