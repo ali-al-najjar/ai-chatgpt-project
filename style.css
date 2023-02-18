@@ -9,7 +9,6 @@
 body,
 html {
   height: 100%;
-  /* background:#f9f9f9; */
 }
 
 .header {
@@ -176,7 +175,7 @@ nav.navigation a:hover {
 /* AI Styling */
 
 .ai-parallax {
-  background-image: url("images/ai-bckg.png");
+  background-image: url("images/ai-background.webp");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
