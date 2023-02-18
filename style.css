@@ -80,3 +80,35 @@ html {
 .flex-footer>* {
   margin: 10px 50px;
 }
+.title-2{
+  font-size: 2em ;
+  padding: 30px;
+  font-weight: bold;
+}
+.chatgptTitleBox {
+ 
+}
+.content-2{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-2{
+  width: 250px;
+  height: 250px;
+  padding-right: 30px;
+}
+.text-2{
+  width: 50%;
+  line-height: 2rem;
+  margin-left: 4rem;
+}
+.background-blue{
+  background-color: #194198;
+}
+.FooterText-2{
+  color: white;
+}
+.main-2{
+  margin:100px;
+  color: white;
+}
