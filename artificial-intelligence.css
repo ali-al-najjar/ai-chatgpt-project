@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    height: 150vh;
+    /* background:#f9f9f9; */
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    /* left:0;*/
+    width: 100%;
+    padding: 30px 100px;
+    position: absolute;
+    /* align-items:center; */
+    /* z-index:100; */
+  }
+
+  .logo {
+    font-size: 2em;
+    color: white;
+    pointer-events: none;
+  }
+
+  .navigation a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("images/ai-brain.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax_content {
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 5%;
+   
+  }
+
+  .box {
+    width: 500px;
+    height: 350px;
+    color: white;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin-top:200px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slide{
+    position: absolute;
+    left: -250px;
+    width: 500px;
+    height: 350px;
+    background:  rgb(15,163,127);
+    transition: 1s;
+  }
+
+  .box:hover .slide {
+    transition: 1s;
+    left: 0;
+}
+
+  /* .box-1{
+    background-color: rgb(15,163,127);
+  } */
+
+  .box-2{
+    background-color: rgb(25,65,152);
+    align-self: flex-end;
+  }
+
+  .box-3 {
+    background-color: rgb(242,129,87);
+  }

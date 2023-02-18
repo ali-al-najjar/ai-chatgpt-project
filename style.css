@@ -2,21 +2,26 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', sans-serif;
 }
-
 body,
 html {
   height: 100vh;
+  /* background:#f9f9f9; */
 }
 
 .header {
   display: flex;
-  top: 0;
+  justify-content: space-between;
   width: 100%;
   padding: 30px 100px;
   position: absolute;
-  justify-content: flex-end;
+}
+
+.logo {
+  font-size: 2em;
+  color: white;
+  pointer-events: none;
 }
 
 .navigation a {
@@ -25,45 +30,70 @@ html {
   text-decoration: none;
   padding: 10px;
 }
-
 .parallax {
-  background-image: url('./images/homepage-banner.png');
+  /* The image used */
+  background-image: url("images/homepage-banner.png");
+
+  /* Full height */
   height: 100%;
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
 .parallax_content {
-  height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: white;
+  align-items: center;
   padding: 5%;
+  gap: 10%;
+  padding-top: 25%;
 }
-
-
-.box-chatgpt p {
+.box {
+  color: white;
   text-align: center;
-  margin: 2% 2% 2% 2%;
+  padding: 7%;
 }
+.box h1 {
+  font-size: 3em;
+  text-decoration: underline;
+  margin-bottom: 4%;
+}
+.box p {
+  font-size: 1.8em;
 
+}
 .box-chatgpt {
-  text-align: center;
-  padding: 1% 1% 1% 1%;
-  background-color: rgb(43, 50, 168);
-  border-radius: 30px;
-  width: 35%;
+  background-color: #18a0fb;
+  border: 5px solid #18a0fb;
+  transition: .5s;
+  cursor: pointer;
+}
+.box-AI {
+  background-color: #023968;
+  border: 5px solid #023968;
+  transition: .5s;
+  cursor: pointer;
+}
+.box-chatgpt:hover {
+  border: 5px solid #18a0fb;
+  box-shadow: 25px 25px #18a0fb;
+  background-color: white;
+  color: #18a0fb;
+  transition: .5s;
 }
 
-.box-AI {
-  text-align: center;
-  background-color: rgb(0, 145, 255);
-  width: 35%;
-  padding: 1% 1% 1% 1%;
-  border-radius: 30px;
+.box-AI:hover {
+  border: 5px solid #023968;
+  box-shadow: 25px 25px #023968;
+  background-color: white;
+  color: #023968;
+  transition: .5s;
 }
 
 .footerLogo {
@@ -77,9 +107,10 @@ html {
   color: #194198;
 }
 
-.flex-footer>* {
+.flex-footer > * {
   margin: 10px 50px;
 }
+
 .title-2{
   font-size: 2em ;
   padding: 30px;
