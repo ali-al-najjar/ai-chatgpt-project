@@ -88,6 +88,8 @@ html {
   border-bottom-width:5px; 
   border-bottom-style:solid;
   position:relative;
+  margin-right:35rem;
+  margin-left:1rem;
 }
 .content-2{
   display: flex;
@@ -101,7 +103,8 @@ html {
 .text-2{
   width: 50%;
   line-height: 2rem;
-  margin-left: 1.5rem;
+  margin-left: 2.6rem;
+  margin-top: 1.5rem;
 }
 .background-blue{
   background-color: #194198;
@@ -110,7 +113,7 @@ html {
   color: white;
 }
 .main-2{
-  margin:100px;
+  margin:50px;
   color: white;
-  background-color: red;
+
 }
