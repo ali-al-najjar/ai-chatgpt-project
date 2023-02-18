@@ -114,6 +114,9 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .chatgpt-title{
@@ -154,7 +157,8 @@ html {
   box-shadow: 10px;
   box-shadow: 0px -20px 20px #194198;
 }
-
+.chatgpt-arrow{
+}
 
 /* AI Styling */
 
