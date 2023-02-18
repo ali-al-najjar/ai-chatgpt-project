@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Source Code Pro', sans-serif;
+  font-family: "Source Code Pro", sans-serif;
 }
 body,
 html {
@@ -39,7 +39,6 @@ html {
   background-size: cover;
 }
 
-
 .parallax_content {
   display: flex;
   flex-direction: row;
@@ -61,18 +60,17 @@ html {
 }
 .box p {
   font-size: 1.8em;
-
 }
 .box-chatgpt {
   background-color: #18a0fb;
   border: 5px solid #18a0fb;
-  transition: .5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .box-AI {
   background-color: #023968;
   border: 5px solid #023968;
-  transition: .5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .box-chatgpt:hover {
@@ -80,7 +78,7 @@ html {
   box-shadow: 25px 25px #18a0fb;
   background-color: white;
   color: #18a0fb;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .box-AI:hover {
@@ -88,7 +86,7 @@ html {
   box-shadow: 25px 25px #023968;
   background-color: white;
   color: #023968;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .footerLogo {
@@ -119,37 +117,37 @@ html {
   justify-content: center;
 }
 
-.chatgpt-title{
-  font-size: 2.5em ;
+.chatgpt-title {
+  font-size: 2.5em;
   padding: 30px;
   font-weight: bold;
-  border-bottom: 5px solid #F28157;
-  position:relative;
-  margin-right:35rem;
-  margin-left:1rem;
+  border-bottom: 5px solid #f28157;
+  position: relative;
+  margin-right: 35rem;
+  margin-left: 1rem;
   line-height: 3rem;
 }
-.chatgpt-content{
+.chatgpt-content {
   display: flex;
   justify-content: space-between;
 }
-.chatgpt-logo{
+.chatgpt-logo {
   width: 250px;
   height: 250px;
   padding-right: 30px;
 }
-.chatgpt-text{
+.chatgpt-text {
   width: 50%;
   line-height: 2rem;
   margin-left: 2.6rem;
   margin-top: 1.5rem;
-  font-size: 1.4em ;
+  font-size: 1.4em;
 }
 
-.FooterText-2{
+.FooterText-2 {
   color: white;
 }
-.content{
+.content {
   padding: 10%;
   color: white;
   background-color: #194198;
@@ -157,7 +155,7 @@ html {
   box-shadow: 10px;
   box-shadow: 0px -20px 20px #194198;
 }
-.chatgpt-arrow{
+.chatgpt-arrow {
 }
 
 /* AI Styling */
@@ -176,9 +174,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
   padding: 5%;
- 
 }
 
 .ai-box {
@@ -187,12 +184,12 @@ html {
   color: white;
   text-align: center;
   padding: 1% 1% 1% 1%;
-  margin-top:200px;
+  margin-top: 200px;
   position: relative;
   overflow: hidden;
 }
 
-.left{
+.left {
   position: absolute;
   left: -250px;
   width: 500px;
@@ -205,15 +202,22 @@ html {
   left: 0;
 }
 
-.machine-learning{
-  background-color: rgb(15,163,127);
-} 
+.machine-learning {
+  background-color: rgb(15, 163, 127);
+}
 
-.machine-intelligence{
-  background-color: rgb(25,65,152);
+.machine-intelligence {
+  background-color: rgb(25, 65, 152);
   align-self: flex-end;
 }
 
-.machine-consciousness{
-  background-color: rgb(242,129,87);
+.machine-consciousness {
+  background-color: rgb(242, 129, 87);
+}
+.ai-box h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ai-box p {
+  margin-top: 20px;
 }
