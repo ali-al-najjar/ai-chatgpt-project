@@ -73,16 +73,14 @@ nav.navigation a:hover {
   border: 5px solid #18a0fb;
   transition: 0.5s;
   cursor: pointer;
+  text-decoration: none;
 }
 .box-AI {
-  /* background-color: #023968;
-  border: 5px solid #023968;
-  transition: .5s;
-  cursor: pointer; */
   background-color: #F28157;
   border: 5px solid #F28157;
   transition: 0.5s;
   cursor: pointer;
+  text-decoration: none;
 }
 .box-chatgpt:hover {
   border: 5px solid #18a0fb;
@@ -94,12 +92,6 @@ nav.navigation a:hover {
 }
 
 .box-AI:hover {
-  /* border: 5px solid #023968;
-  box-shadow: -25px 25px #023968;
-  background-color: white;
-  color: #023968;
-  transition: 0.5s;
-  transform: translate(-40px, -40px); */
   border: 5px solid #F28157;
   box-shadow: -25px 25px #F28157;
   background-color: white;
@@ -137,7 +129,11 @@ nav.navigation a:hover {
 }
 .chatgpt-arrow {
   cursor: pointer;
+  background-color: rgba(5,6,8,.5);
+  padding: 10px;
+  animation: shake 0.7s;
 }
+
 
 .chatgpt-title {
   font-size: 2.5em;
@@ -176,8 +172,6 @@ nav.navigation a:hover {
   border-top: 64px solid rgba(25, 65, 152, 0.5);
   box-shadow: 10px;
   box-shadow: 0px -20px 20px #194198;
-}
-.chatgpt-arrow {
 }
 
 /* AI Styling */
@@ -242,4 +236,21 @@ nav.navigation a:hover {
 }
 .ai-box p {
   margin-top: 20px;
+}
+
+
+/* Animation */
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -3px) rotate(-1deg); }
+  20% { transform: translate(-4px, 1px) rotate(1deg); }
+  30% { transform: translate(4px, 3px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(1deg); }
+  50% { transform: translate(-2px, 3px) rotate(-1deg); }
+  60% { transform: translate(-4px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 2px) rotate(-1deg); }
+  80% { transform: translate(-2px, -2px) rotate(1deg); }
+  90% { transform: translate(2px, 3px) rotate(0deg); }
+  100% { transform: translate(2px, -3px) rotate(-1deg); }
 }
