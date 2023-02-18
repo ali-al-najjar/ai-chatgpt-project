@@ -116,7 +116,7 @@ html {
   background-size: cover;
 }
 
-.title-2{
+.chatgpt-title{
   font-size: 2em ;
   padding: 30px;
   font-weight: bold;
@@ -128,28 +128,26 @@ html {
   margin-left:1rem;
   line-height: 3rem;
 }
-.content-2{
+.chatgpt-content{
   display: flex;
   justify-content: space-between;
 }
-.logo-2{
+.chatgpt-logo{
   width: 250px;
   height: 250px;
   padding-right: 30px;
 }
-.text-2{
+.chatgpt-text{
   width: 50%;
   line-height: 2rem;
   margin-left: 2.6rem;
   margin-top: 1.5rem;
 }
-.background-blue{
-  background-color: #194198;
-}
+
 .FooterText-2{
   color: white;
 }
-.main-2{
+.content{
   padding: 10%;
   color: white;
   background-color: #194198;
