@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Source Code Pro', sans-serif;
 }
 body,
 html {
@@ -12,13 +13,9 @@ html {
 .header {
   display: flex;
   justify-content: space-between;
-  top: 0;
-  /* left:0;*/
   width: 100%;
   padding: 30px 100px;
   position: absolute;
-  /* align-items:center; */
-  /* z-index:100; */
 }
 
 .logo {
@@ -47,80 +44,56 @@ html {
   background-size: cover;
 }
 
-.parallax2 {
-  /* The image used */
-  background-image: url("artificial-intelligence.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .parallax_content {
-  height: 550px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 5%;
+  gap: 10%;
+  padding-top: 25%;
 }
 .box {
-  width: 500px;
-  height: 350px;
   color: white;
   text-align: center;
-  padding: 1% 1% 1% 1%;
-  border-radius: 0;
+  padding: 7%;
 }
 .box h1 {
-  font-size: 48px;
+  font-size: 3em;
+  text-decoration: underline;
+  margin-bottom: 4%;
 }
 .box p {
-  font-size: 30px;
-  /* line-height: 45px; */
-  font-weight: bold;
+  font-size: 1.8em;
+
 }
 .box-chatgpt {
   background-color: #18a0fb;
+  border: 5px solid #18a0fb;
+  transition: .5s;
+  cursor: pointer;
 }
 .box-AI {
   background-color: #023968;
+  border: 5px solid #023968;
+  transition: .5s;
+  cursor: pointer;
 }
 .box-chatgpt:hover {
   border: 5px solid #18a0fb;
-  box-shadow: 25px 25px 5px #18a0fb;
+  box-shadow: 25px 25px #18a0fb;
   background-color: white;
   color: #18a0fb;
-  /* transform: translate(-25px, -25px, 25px); */
-  transform: translate(0);
-  -webkit-clip-path: polygon(
-    0 var(--d),
-    var(--d) 0,
-    100% 0,
-    100% calc(100% - var(--d)),
-    calc(100% - var(--d)) 100%,
-    0 100%
-  );
-  clip-path: polygon(
-    0 var(--d),
-    var(--d) 0,
-    100% 0,
-    100% calc(100% - var(--d)),
-    calc(100% - var(--d)) 100%,
-    0 100%
-  );
+  transition: .5s;
 }
+
 .box-AI:hover {
   border: 5px solid #023968;
-  box-shadow: 25px 25px 5px #023968;
+  box-shadow: 25px 25px #023968;
   background-color: white;
   color: #023968;
-  transform: translate(-25px, -25px, 25px);
+  transition: .5s;
 }
 
 .footerLogo {
