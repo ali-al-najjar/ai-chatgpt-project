@@ -51,14 +51,14 @@ nav.navigation a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 5%;
   gap: 10%;
-  padding-top: 25%;
+  padding: 30% 5% 5%;
 }
 .box {
   color: white;
   text-align: center;
   padding: 7%;
+  max-height: 500px;
 }
 .box h1 {
   font-size: 3em;
