@@ -121,6 +121,7 @@ html {
   position:relative;
   margin-right:35rem;
   margin-left:1rem;
+  line-height: 3rem;
 }
 .content-2{
   display: flex;
