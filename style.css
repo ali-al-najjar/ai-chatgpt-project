@@ -420,16 +420,7 @@ html {
   }
 
   .header {
-    padding: 0;
-    gap: 10%;
-  }
-
-  nav.navigation {
-    font-size: 8px;
-  }
-
-  .header {
-    padding: 0;
+    padding: 2%;
     gap: 10%;
   }
 
@@ -477,7 +468,7 @@ html {
   }
 
   .header {
-    padding: 0;
+    padding: 2%;
     gap: 10%;
   }
 
@@ -504,7 +495,7 @@ html {
   }
 
   .header {
-    padding: 0;
+    padding: 2%;
     gap: 10%;
   }
 
@@ -531,7 +522,7 @@ html {
   }
 
   .header {
-    padding: 0;
+    padding: 2%;
     gap: 10%;
   }
 
