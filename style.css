@@ -238,7 +238,7 @@ html {
 }
 
 .ai-box {
-  width: 330px;
+  width: 350px;
   height: 650px; 
   color: white;
   text-align: center;
@@ -364,6 +364,7 @@ html {
   }
 }
 @media(max-width:768px){
+
   #layer-three{
     transform: translate3d(-100px,-800px, -3px)
   }
@@ -375,8 +376,6 @@ html {
   #layer-two{
     background-image: none;
   }
-
-
 
   .slide-learning {
     left: auto;
@@ -397,9 +396,6 @@ html {
     align-self: auto;
   } 
 
-  .ai-parallax-content{
-    align-items: center;
-  }
 
   .ai-box:hover .slide-learning {
     left: auto;
@@ -412,9 +408,144 @@ html {
   .ai-box:hover .slide-consciousness {
     left: auto;
   }
+  
+  .flex-footer > * {
+    margin: 0;
+    padding: 1%;
+  }
+  .flex-footer{
+  flex-direction: column;}
+  
+
+  .ai-box {
+  padding: 0%;
+}
+
+.ai-parallax-content{
+  align-items:center;
+}
+
+nav.navigation {
+  font-size: 10px;
+}
+
+.header{
+padding:0;
+gap:10%;
+}
+
+nav.navigation {
+  font-size: 8px;
+}
+
+.header{
+padding:0;
+gap:10%;
+}
+
+.parallax_content{
+flex-direction:column;
+}
+
+.box-chatgpt{
+margin-bottom: 10%;
+}
+
+.flex-footer > * {
+margin: 0;
+padding: 1%;
+}
+.flex-footer{
+flex-direction: column;}
+
+}
+
+@media (max-width:350px){
+  nav.navigation {
+    font-size: 8px;
+}
+
+.header{
+  padding:0;
+  gap:10%;
+}
+
+.parallax_content{
+  flex-direction:column;
+}
+
+.box-chatgpt{
+  margin-bottom: 10%;
+}
+
+.flex-footer > * {
+  margin: 0;
+  padding: 1%;
+}
+.flex-footer{
+flex-direction: column;}
+
+}
+
+@media (max-width: 640px){
+  nav.navigation {
+    font-size: 8px;
+}
+
+.header{
+  padding:0;
+  gap:10%;
+}
+
+.parallax_content{
+  flex-direction:column;
+}
+
+.box-chatgpt{
+  margin-bottom: 10%;
+}
+
+.flex-footer > * {
+  margin: 0;
+  padding: 1%;
+}
+.flex-footer{
+flex-direction: column;}
 
 
 }
+
+@media (max-width: 1024px){
+  nav.navigation {
+    font-size: 8px;
+}
+
+.header{
+  padding:0;
+  gap:10%;
+}
+
+.parallax_content{
+  flex-direction:column;
+}
+
+.box-chatgpt{
+  margin-bottom: 10%;
+}
+
+.flex-footer > * {
+  margin: 0;
+  padding: 1%;
+}
+.flex-footer{
+flex-direction: column;}
+
+}
+
+@media (max-width: 1280px){
+
+}
+
 
 @media (min-width:350px){}
 @media (min-width: 640px){}
