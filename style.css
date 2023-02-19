@@ -257,7 +257,7 @@ nav.navigation a:hover {
   width: 750px;
   height: 400px;
   transition: 1s;
-  background-color: rgb(15, 163, 127);
+  /* background-color: rgb(15, 163, 127); */
   box-shadow: 2px 2px 10px 5px #5dddf8;
 }
 
@@ -267,7 +267,7 @@ nav.navigation a:hover {
   width: 750px;
   height: 400px;
   transition: 1s;
-  background-color: rgb(24, 65, 152);
+  /* background-color: rgb(24, 65, 152); */
   box-shadow: 2px 2px 10px 5px #5dddf8;
 }
 
@@ -277,14 +277,17 @@ nav.navigation a:hover {
   width: 750px;
   height: 400px;
   transition: 1s;
-  background-color: rgb(242, 129, 87);
+  /* background-color: rgb(242, 129, 87); */
   box-shadow: 2px 2px 10px 5px #5dddf8;
 }
+
 
 .ai-box:hover .slide-learning {
   transition: 1s;
   left: 0;
   box-shadow: 2px 2px 20px 10px #5dddf8;
+  background-color: rgb(15, 163, 127);
+
 }
 
 .ai-box:hover .slide-intelligence {
@@ -297,6 +300,7 @@ nav.navigation a:hover {
   transition: 1s;
   left: 0;
   box-shadow: 2px 2px 20px 10px #5dddf8;
+  background-color: rgb(242, 129, 87);
 }
 
 .machine-intelligence {
@@ -356,4 +360,7 @@ nav.navigation a:hover {
   100% {
     transform: translate(2px, -3px) rotate(-1deg);
   }
+}
+@media(max-width:768px){
+  
 }
