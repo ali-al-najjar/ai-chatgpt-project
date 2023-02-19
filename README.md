@@ -1,5 +1,5 @@
 # ai-chatGPT-project
-A Web site provides information about artificial intelligence and ChatGPT.
+This Web site provides information about artificial intelligence and ChatGPT.
 We've worked on this project as a team, and through this project, we've learned more about parallax and how to implement this feature using CSS.
 we're providing three different ways of using Parallax effect:
 
@@ -27,3 +27,4 @@ https://www.figma.com/file/ObDj5dTUTPfeT7BUJiaA47/Ali-Al-Najjar's-team-library?n
 - W3schools : https://www.w3schools.com/howto/howto_css_parallax.asp
 - SVG images : https://www.svgrepo.com/
 - Code Pen : https://codepen.io/robatronbobby/pen/dyeQWvN
+- JSFiddle : http://jsfiddle.net/yhwrf1a7/1/
