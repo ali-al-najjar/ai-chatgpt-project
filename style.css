@@ -2,13 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Source Code Pro', sans-serif;
+  font-family: "Source Code Pro", sans-serif;
   scroll-behavior: smooth;
 }
+
 body,
 html {
-  height: 100vh;
-  /* background:#f9f9f9; */
+  height: 100%;
 }
 
 .header {
@@ -31,6 +31,11 @@ html {
   text-decoration: none;
   padding: 10px;
 }
+
+nav.navigation a:hover {
+  border-bottom: 1px solid #10a37f;
+}
+
 .parallax {
   background-image: url("images/homepage-bckg.png");
   height: 100%;
@@ -40,20 +45,19 @@ html {
   background-size: cover;
 }
 
-
 .parallax_content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 5%;
   gap: 10%;
-  padding-top: 25%;
+  padding: 30% 5% 5%;
 }
 .box {
   color: white;
   text-align: center;
   padding: 7%;
+  max-height: 500px;
 }
 .box h1 {
   font-size: 3em;
@@ -62,34 +66,37 @@ html {
 }
 .box p {
   font-size: 1.8em;
-
 }
 .box-chatgpt {
   background-color: #18a0fb;
   border: 5px solid #18a0fb;
-  transition: .5s;
+  transition: 0.5s;
   cursor: pointer;
+  text-decoration: none;
 }
 .box-AI {
-  background-color: #023968;
-  border: 5px solid #023968;
-  transition: .5s;
+  background-color: #f28157;
+  border: 5px solid #f28157;
+  transition: 0.5s;
   cursor: pointer;
+  text-decoration: none;
 }
 .box-chatgpt:hover {
   border: 5px solid #18a0fb;
   box-shadow: 25px 25px #18a0fb;
   background-color: white;
   color: #18a0fb;
-  transition: .5s;
+  transition: 0.5s;
+  transform: translate(40px, 40px);
 }
 
 .box-AI:hover {
-  border: 5px solid #023968;
-  box-shadow: 25px 25px #023968;
+  border: 5px solid #f28157;
+  box-shadow: -25px 25px #f28157;
   background-color: white;
-  color: #023968;
-  transition: .5s;
+  color: #f28157;
+  transition: 0.5s;
+  transform: translate(-40px, -40px);
 }
 
 .footerLogo {
@@ -119,41 +126,44 @@ html {
   align-items: flex-end;
   justify-content: center;
 }
-.chatgpt-arrow{
+.chatgpt-arrow {
   cursor: pointer;
+  background-color: rgba(5, 6, 8, 0.5);
+  padding: 10px;
+  animation: shake 0.7s;
 }
 
-.chatgpt-title{
-  font-size: 2.5em ;
+.chatgpt-title {
+  font-size: 2.5em;
   padding: 30px;
   font-weight: bold;
-  border-bottom: 5px solid #F28157;
-  position:relative;
-  margin-right:35rem;
-  margin-left:1rem;
+  border-bottom: 5px solid #f28157;
+  position: relative;
+  margin-right: 35rem;
+  margin-left: 1rem;
   line-height: 3rem;
 }
-.chatgpt-content{
+.chatgpt-content {
   display: flex;
   justify-content: space-between;
 }
-.chatgpt-logo{
+.chatgpt-logo {
   width: 250px;
   height: 250px;
   padding-right: 30px;
 }
-.chatgpt-text{
+.chatgpt-text {
   width: 50%;
   line-height: 2rem;
   margin-left: 2.6rem;
   margin-top: 1.5rem;
-  font-size: 1.4em ;
+  font-size: 1.4em;
 }
 
-.FooterText-2{
+.FooterText-2 {
   color: white;
 }
-.content{
+.content {
   padding: 10%;
   color: white;
   background-color: #194198;
@@ -162,11 +172,10 @@ html {
   box-shadow: 0px -20px 20px #194198;
 }
 
-
 /* AI Styling */
 
 .ai-parallax {
-  background-image: url("images/ai-bckg.png");
+  background-image: url("images/ai-background.webp");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -175,48 +184,127 @@ html {
 }
 
 .ai-parallax-content {
+  /* height: 100%; */
   height: 1500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items:flex-start;
-  padding: 5%;
- 
+  /* align-items: flex-start; */
+  /* padding: 200px 0; */
 }
 
 .ai-box {
   width: 500px;
-  height: 350px;
+  height: fit-content; 
+  height: 350px; 
   color: white;
   text-align: center;
-  padding: 1% 1% 1% 1%;
-  margin-top:200px;
+  padding: 1%;
+  margin-top: 200px;
   position: relative;
   overflow: hidden;
 }
 
-.left{
+.slide-learning {
   position: absolute;
   left: -250px;
   width: 500px;
   height: 350px;
   transition: 1s;
+   background-color: rgb(15, 163, 127);
 }
 
-.ai-box:hover .left {
+.slide-intelligence {
+  position: absolute;
+  right: -250px;
+  width: 500px;
+  height: 350px;
+  transition: 1s;
+  background-color: rgb(24,65,152)
+}
+
+
+.slide-consciousness {
+  position: absolute;
+  left: -250px;
+  width: 500px;
+  height: 350px;
+  transition: 1s;
+  background-color: rgb(242, 129, 87);
+}
+
+.ai-box:hover .slide-consciousness{
   transition: 1s;
   left: 0;
 }
 
-.machine-learning{
-  background-color: rgb(15,163,127);
-} 
+.ai-box:hover .slide-learning{
+  transition: 1s;
+  left: 0;
+}
 
-.machine-intelligence{
-  background-color: rgb(25,65,152);
+.ai-box:hover .slide-intelligence{
+  transition: 1s;
+  right: 0;
+}
+
+
+
+/* .machine-learning {
+  background-color: rgb(15, 163, 127);
+} */
+
+.machine-intelligence {
+  /* background-color: rgb(24,65,152); */
   align-self: flex-end;
 }
 
-.machine-consciousness{
-  background-color: rgb(242,129,87);
+/* .machine-consciousness {
+  background-color: rgb(242, 129, 87);
+} */
+.ai-box h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ai-box p {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+/* Animation */
+
+@keyframes shake {
+  0% {
+    transform: translate(2px, 2px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-2px, -3px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-4px, 1px) rotate(1deg);
+  }
+  30% {
+    transform: translate(4px, 3px) rotate(0deg);
+  }
+  40% {
+    transform: translate(2px, -2px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-2px, 3px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-4px, 2px) rotate(0deg);
+  }
+  70% {
+    transform: translate(4px, 2px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-2px, -2px) rotate(1deg);
+  }
+  90% {
+    transform: translate(2px, 3px) rotate(0deg);
+  }
+  100% {
+    transform: translate(2px, -3px) rotate(-1deg);
+  }
 }
