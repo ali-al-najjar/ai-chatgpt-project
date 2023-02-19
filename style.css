@@ -202,22 +202,22 @@ nav.navigation a:hover {
 
 #layer-one{
   background-image: url("images/processor-bckg.png");
-  transform: translate3d(70%,90%,-8px);
+  transform: translate3d(1000px,1000px,-8px);
 }
 
 #layer-two{
   background-image: url("images/ai-processor.png");
-  transform: translate3d(75%,110%,-5px);
+  transform: translate3d(1200px,1000px,-5px);
 }
 
 #layer-three{
   background-image: url("images/machine-learning-bck.png");
-  transform: translate3d(50%,-15%,-1px);
+  transform: translate3d(1100px,200px,-1px);
 }
 
 #layer-four{
   background-image: url("images/machine-consciousness-bck.png");
-  transform: translate3d(0,150%,-0.7px);
+  transform: translate3d(0,1550px,-0.7px);
 }
 
 .ai-parallax-content {
