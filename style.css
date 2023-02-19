@@ -179,7 +179,8 @@ nav.navigation a:hover {
 
 /* AI Styling */
 .ai-body{
-  height :auto
+  height :auto;
+  overflow-x: hidden
 }
 .ai-parallax {
   background-image: url("images/ai-background.png");
@@ -205,7 +206,6 @@ nav.navigation a:hover {
   margin-top: 200px;
   overflow: hidden;
   transition: 1s;
-  margin-bottom: 200px
 }
 
 
