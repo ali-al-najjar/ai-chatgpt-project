@@ -34,7 +34,7 @@ html {
   padding: 10px;
 }
 
-nav.navigation a:hover {
+.navigation a:hover {
   border-bottom: 1px solid #10a37f;
 }
 
@@ -255,7 +255,7 @@ nav.navigation a:hover {
   width: 750px;
   height: 400px;
   transition: 1s;
-  background-color: rgb(15, 163, 127);
+  /* background-color: rgb(15, 163, 127); */
   box-shadow: 2px 2px 10px 5px #5dddf8;
 }
 
@@ -265,7 +265,7 @@ nav.navigation a:hover {
   width: 750px;
   height: 400px;
   transition: 1s;
-  background-color: rgb(24,65,152);
+  /* background-color: rgb(24, 65, 152); */
   box-shadow: 2px 2px 10px 5px #5dddf8;
 }
 
@@ -276,14 +276,18 @@ nav.navigation a:hover {
   width: 750px;
   height: 400px;
   transition: 1s;
-  background-color: rgb(242, 129, 87);
+  /* background-color: rgb(242, 129, 87); */
   box-shadow: 2px 2px 10px 5px #5dddf8;
 }
+
+
 
 .ai-box:hover .slide-learning{
   transition: 1s;
   left: 0;
   box-shadow: 2px 2px 20px 10px #5dddf8;
+  background-color: rgb(15, 163, 127);
+
 }
 
 
@@ -297,6 +301,7 @@ nav.navigation a:hover {
   transition: 1s;
   left: 0;
   box-shadow: 2px 2px 20px 10px #5dddf8;
+  background-color: rgb(242, 129, 87);
 }
 
 
@@ -358,3 +363,61 @@ nav.navigation a:hover {
     transform: translate(2px, -3px) rotate(-1deg);
   }
 }
+@media(max-width:768px){
+  #layer-three{
+    transform: translate3d(-100px,-800px, -3px)
+  }
+
+  #layer-one{
+    background-image: none;
+  }
+
+  #layer-two{
+    background-image: none;
+  }
+
+
+
+  .slide-learning {
+    left: auto;
+    width: 350px;
+  }
+
+  .slide-consciousness {
+    left: auto;
+    width: 350px;
+  }
+  
+  .slide-intelligence {
+    right: auto;
+    width: 350px;
+  }
+
+  .machine-intelligence {
+    align-self: auto;
+  } 
+
+  .ai-parallax-content{
+    align-items: center;
+  }
+
+  .ai-box:hover .slide-learning {
+    left: auto;
+  }
+
+  .ai-box:hover .slide-intelligence {
+    right: auto;
+  }
+  
+  .ai-box:hover .slide-consciousness {
+    left: auto;
+  }
+
+
+}
+
+@media (min-width:350px){}
+@media (min-width: 640px){}
+@media (min-width: 768px){}
+@media (min-width: 1024px){}
+@media (min-width: 1280px){}
