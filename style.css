@@ -110,14 +110,12 @@ nav.navigation a:hover {
   display: flex;
   justify-content: space-between;
   color: #194198;
+  background-color: white;
 }
 
 .flex-footer > * {
   margin: 10px 50px;
 }
-/* .logo{
-  width:50px;
-} */
 /* ChatGPT Styling */
 
 .parallax-chatgpt {
@@ -179,21 +177,63 @@ nav.navigation a:hover {
 
 /* AI Styling */
 .ai-body{
-  height :auto
+  height :auto;
+  overflow-x: hidden;
 }
 .ai-parallax {
-  background-image: url("images/ai-background.png");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  transform-style: preserve-3d;
+  height:120vh;
+}
+
+.ai-parallax-layer{
+  background-position: bottom center;
+	background-size: cover;
+	background-repeat: repeat-x;
+	position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+#layer-one{
+  background-image: url("images/processor-bckg.png");
+  transform: translate3d(70%,90%,-8px);
+}
+
+#layer-two{
+  background-image: url("images/ai-processor.png");
+  transform: translate3d(75%,110%,-5px);
+}
+
+#layer-three{
+  background-image: url("images/machine-learning-bck.png");
+  transform: translate3d(50%,-15%,-1px);
+}
+
+#layer-four{
+  background-image: url("images/machine-consciousness-bck.png");
+  transform: translate3d(0,150%,-0.7px);
 }
 
 .ai-parallax-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.ai-page{
+  background-image: url("images/ai-background.png");
+  /*height: 100%;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+  perspective:1px;
+  perspective-origin: center center;
+  overflow-x:hidden;
 }
 
 .ai-box {
@@ -213,7 +253,7 @@ nav.navigation a:hover {
   position: absolute;
   left: -350px;
   width: 750px;
-  height: 500px;
+  height: 400px;
   transition: 1s;
   background-color: rgb(15, 163, 127);
   box-shadow: 2px 2px 10px 5px #5dddf8;
@@ -223,7 +263,7 @@ nav.navigation a:hover {
   position: absolute;
   right: -350px;
   width: 750px;
-  height: 500px;
+  height: 400px;
   transition: 1s;
   background-color: rgb(24,65,152);
   box-shadow: 2px 2px 10px 5px #5dddf8;
@@ -234,7 +274,7 @@ nav.navigation a:hover {
   position: absolute;
   left: -350px;
   width: 750px;
-  height: 500px;
+  height: 400px;
   transition: 1s;
   background-color: rgb(242, 129, 87);
   box-shadow: 2px 2px 10px 5px #5dddf8;
@@ -272,7 +312,15 @@ nav.navigation a:hover {
   margin-top: 15px;
   font-size: 20px;
 }
-
+.slide-learning img {
+  margin-top: 5%;
+}
+.slide-intelligence img {
+  margin-top: 5%;
+}
+.slide-consciousness img {
+  margin-top: 5%;
+}
 /* Animation */
 
 @keyframes shake {
