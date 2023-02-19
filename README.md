@@ -1,13 +1,18 @@
 # ai-chatGPT-project
 A Web site provides information about artificial intelligence and ChatGPT.
 We've worked on this project as a team, and through this project, we've learned more about parallax and how to implement this feature using CSS.
+we're providing three different ways of using Parallax effect:
+
+* Use a background and make two floating boxes on top of it (Homepage)
+* Use a background and make a whole content section to scroll above it (ChatGPT page)
+* Use a background and many other layers to give it a 3D feeling (Artificial Intelligence page)
 
 ### languages which we use in the project
 * HTML
 * CSS
 
 ### Team Leader
-- Ali Najjar
+- Ali Al Najjar
 
 ### Team members
 - Shifaa khalil
