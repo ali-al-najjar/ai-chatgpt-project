@@ -182,7 +182,7 @@ nav.navigation a:hover {
   height :auto
 }
 .ai-parallax {
-  background-image: url("images/ai-background.webp");
+  background-image: url("images/ai-background.png");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
