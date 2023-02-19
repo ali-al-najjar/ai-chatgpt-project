@@ -34,7 +34,7 @@ html {
   padding: 10px;
 }
 
-nav.navigation a:hover {
+.navigation a:hover {
   border-bottom: 1px solid #10a37f;
 }
 
@@ -362,5 +362,60 @@ nav.navigation a:hover {
   }
 }
 @media(max-width:768px){
+  #layer-three{
+    transform: translate3d(-100px,-800px, -3px)
+  }
+
+  #layer-one{
+    background-image: none;
+  }
+
+  #layer-two{
+    background-image: none;
+  }
+
+
+
+  .slide-learning {
+    left: auto;
+    width: 350px;
+  }
+
+  .slide-consciousness {
+    left: auto;
+    width: 350px;
+  }
   
+  .slide-intelligence {
+    right: auto;
+    width: 350px;
+  }
+
+  .machine-intelligence {
+    align-self: auto;
+  } 
+
+  .ai-parallax-content{
+    align-items: center;
+  }
+
+  .ai-box:hover .slide-learning {
+    left: auto;
+  }
+
+  .ai-box:hover .slide-intelligence {
+    right: auto;
+  }
+  
+  .ai-box:hover .slide-consciousness {
+    left: auto;
+  }
+
+
 }
+
+@media (min-width:350px){}
+@media (min-width: 640px){}
+@media (min-width: 768px){}
+@media (min-width: 1024px){}
+@media (min-width: 1280px){}
