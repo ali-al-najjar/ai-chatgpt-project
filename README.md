@@ -12,4 +12,4 @@ We've worked on this project as a team, and through this project, we've learned 
 ### Team members
 - Shifaa khalil
 - Layla Hammoud
-- Fadi Dib 
+- Fady Dib 
