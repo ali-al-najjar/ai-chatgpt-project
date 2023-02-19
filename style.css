@@ -16,7 +16,7 @@ html {
   justify-content: space-between;
   width: 100%;
   padding: 10px 100px;
-  position: absolute;
+  position: relative;
   background-color: rgba(5, 6, 8, 0.5);
   align-items: center;
 }
@@ -118,6 +118,10 @@ nav.navigation a:hover {
 }
 /* ChatGPT Styling */
 
+.chatgpt-header{
+  position:absolute;
+}
+
 .parallax-chatgpt {
   background-image: url("images/chatgpt-bckg.webp");
   height: 100%;
@@ -182,7 +186,7 @@ nav.navigation a:hover {
 }
 .ai-parallax {
   transform-style: preserve-3d;
-  height:120vh;
+  height:100%;
 }
 
 .ai-parallax-layer{
@@ -245,7 +249,6 @@ nav.navigation a:hover {
   margin-top: 200px;
   overflow: hidden;
   transition: 1s;
-  margin-bottom: 200px
 }
 
 
